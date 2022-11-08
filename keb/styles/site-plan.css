@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #d1ebe8;
   --secondary-color: #9FE4E1;
   --accent1-color: #37B8D5;
-  --accent2-color: #116E9A;
+  --accent2-color: #34D6AB;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Noto Sans";
@@ -23,7 +23,7 @@ Fonts are separated by a | */
   --nav-link-color: #116E9A;
   --nav-background-color: #37B8D5;
   --nav-hover-link-color: #9FE4E1;
-  --nav-hover-background-color: #116E9A;
+  --nav-hover-background-color: #34D6AB;
 }
 
 
