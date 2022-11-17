@@ -225,7 +225,80 @@ footer {
     align-items: center;
 }
 
-/* -------------------- rivers page styles start below ------------------------------*/
+/* --------------------- start of rivers page styles ------------------------------*/
+ 
+.river-block   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 50px; 
+}
+
+.river1-img{
+    grid-column: 1/2;
+    grid-row: 1/2;  
+}
+
+.msg1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
+
+}
+
+.river2-img {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.msg2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: left;
+}
+
+.river3-img {
+    grid-column: 1/2;
+    grid-row: 4/5; 
+}
+
+.msg3 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: left;
+}
+
+.river4-img {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.msg4 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: left;
+}
+
+.river5-img {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.msg5 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    text-align: left;
+
+}
+
+.river1-img, .river2-img, .river3-img, .river4-img, .river5-img {
+    width: 500px;
+    height: 500px;    
+}
+
+h4 {
+    text-decoration-line: underline;}
+
+/*------------------- end of rivers page styles --------------------------*/
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
