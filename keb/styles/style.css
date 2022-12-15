@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 .img {
-    width: 200px;
+    width: 400px;
 }
 
 footer {
@@ -126,7 +126,6 @@ footer {
     background-color: #116E9A;
     justify-content: space-around;
     align-items: center;
-    /*padding: 0 auto;*/
     height: 120px;
 }
 
@@ -148,5 +147,43 @@ footer p a:hover {
     margin-bottom: 100px;
 }
 
+
+/*---------------- start of Achievements styles --------------------------*/
+
+
+.achieve-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1f 1fr 1fr;
+    /*max-width: 1600px;*/
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.my-photo {
+    margin-top: 70px;
+    width: 50%;
+    align-items: center;
+}
+
+.pic {
+    text-align: center;
+}
+
+/*.info-space {
+    grid-column: 2/4;
+    font-size: 30px;
+    position: relative;
+}*/
+
+.h2-achieve {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.info-cse111 {
+    grid-column: 2/3;
+   /* grid-row: 2/3; */
+}
 
 
