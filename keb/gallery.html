@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Kgotla Ephraim Boabilwe | Gallery</title>
     <link rel="stylesheet" href="styles/style.css">
+     
+    
 </head>
-<body>
+
+<body> 
     <header>
         <a id="logo_link" href="index.html">
             <img class="site-logo" src="images/keb_logo.png" alt="Personal Site Logo">
@@ -18,16 +21,49 @@
             <a href="gallery.html">Gallery</a>
         </nav>
     </header>
-    <main class="home-grid">
+    <main>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/whitewaters.PNG" style="width:100%">
+            <div class="text">Rafting Caption</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/rivers-campsites.PNG" style="width:100%">
+            <div class="text">Rivers Caption</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/Mountains.PNG" style="width:100%">
+            <div class="text">Mountains Caption</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    <!----main class="gallery-grid">
         
         <div class="gallery-collect">
-            <section class="slide-show">
-                <img src="images/whitewaters.PNG" alt="gallery images">
-                <h2>Gallery Collection</h2>
-                <h4>Whitewater Rafting Holidays</h4>
-                <p>Enjoy the breathtaking scenery. A great way to get away and relax amongst all the beauty of the great outdoors.</p>
-            </section> 
-        </div>  
+            <img class="wrafting-imgs"src="images/whitewaters.PNG" alt="gallery images">
+            <h3>Gallery Collection</h3>
+            <h5>Whitewater Rafting Holidays</h5>
+            <p>Enjoy the breathtaking scenery. A great way to get away and relax amongst all the beauty of the great outdoors.</p> 
+        </div ----->  
     </main>
     <footer>
         <p>Portfolio &copy; 2022 - Kgotla Boabilwe</p>
@@ -41,6 +77,7 @@
                 <img src="images/linkedin_icon.png" alt="linkedin icon">
             </a>
         </div>
-    </footer>    
+    </footer>
+    <script src="script.js"></script>    
 </body>
 </html>
